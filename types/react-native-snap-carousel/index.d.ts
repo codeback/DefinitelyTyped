@@ -141,7 +141,7 @@ export interface CarouselProps<T> {
      * rendering performance issues due to losing `FlatList`'s performance
      * optimizations
      */
-    useScrollView?: boolean;
+    useScrollView?: boolean | Function | Object;
     /*
      * Layout slides vertically instead of horizontally
      */
